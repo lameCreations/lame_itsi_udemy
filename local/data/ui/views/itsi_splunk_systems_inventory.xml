@@ -1,0 +1,26 @@
+<form version="1.1" theme="light">
+  <label>ITSI Splunk Systems Inventory</label>
+  <fieldset submitButton="false">
+    <input type="time" token="field1">
+      <label></label>
+      <default>
+        <earliest>-24h@h</earliest>
+        <latest>now</latest>
+      </default>
+    </input>
+  </fieldset>
+  <row>
+    <panel>
+      <viz type="network-diagram-viz.network-diagram-viz">
+        <title>Your Custom Splunk Inventory</title>
+        <search>
+          <query>| inputlookup lame_inventory.csv</query>
+          <earliest>$field1.earliest$</earliest>
+          <latest>$field1.latest$</latest>
+        </search>
+        <option name="drilldown">none</option>
+        <option name="height">497</option>
+      </viz>
+    </panel>
+  </row>
+</form>

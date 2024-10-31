@@ -1,0 +1,31 @@
+[app/ui]
+version = 9.3.0
+modtime = 1728791167.511506000
+
+[app/launcher]
+version = 9.3.0
+modtime = 1728791167.517549000
+
+[indexes/lame_data]
+owner = admin
+version = 9.3.0
+modtime = 1728791503.760819000
+
+[views/itsi_splunk_systems_inventory]
+owner = admin
+version = 9.3.0
+modtime = 1728844666.531844000
+
+[nav/default]
+access = read : [ * ], write : [ admin, power ]
+export = system
+owner = nobody
+version = 9.3.0
+modtime = 1729014349.075372000
+
+[savedsearches/lame-content-errors]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.0
+modtime = 1729397781.346658000

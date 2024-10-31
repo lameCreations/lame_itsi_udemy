@@ -1,0 +1,16 @@
+color,from,linktext,partner,site,to,type,value
+amber,lame-dmc,8089/9997,central,central,lame-mn,manager-node,192.168.1.180:8000
+amber,big-splunk,8089/9997,central,central,lame-mn,manager-node,192.168.1.117:8000
+green,lame-deployer,8089/9997,central,central,lame-shc1,manager-node,192.168.1.175:8000
+green,lame-deployer,8089/9997,central,central,lame-shc2,manager-node,192.168.1.175:8000
+green,lame-deployer,8089/9997,central,central,lame-shc3,manager-node,192.168.1.175:8000
+green,lame-shc1,8089/9997,central,central,lame-mn,search-head,192.168.1.172:8000
+amber,csitsi.cslinux.dhs,8089/9997,central,central,lame-mn,heartbeat,192.168.1.176:8000
+green,lame-shc2,8089/9997,central,central,lame-mn,search-head,192.168.1.173:8000
+green,lame-shc3,8089/9997,central,central,lame-mn,search-head,192.168.1.174:8000
+blue,lame-idx1,8089/9997,central,central,lame-mn,indexer,192.168.1.181:8000
+blue,lame-idx2,8089/9997,central,central,,indexer,192.168.1.182:8000
+blue,lame-idx3,8089/9997,central,central,lame-mn,indexer,192.168.1.183:8000
+amber,phantom.cs.dhs,9997,central,central,lame-mn,ghost,https://10.5.8.20
+blue,lame-mn,8089/9997,central,central,lame-idx2,manager-node,192.168.1.184:8000
+blue,lame-ds,8089/9997,central,central,lame-mn,manager-node,192.168.1.185:8000
