@@ -1,0 +1,21 @@
+<dashboard version="1.1" theme="light">
+<label>Splunk SPL Queries</label>
+<row>
+  <panel>
+    <html>
+      <h1>Web Server KPIs</h1>
+      <h2>| makeresults | eval cpu=round(random() % 100, 2) | collect index=summary source=web_cpu </h2>
+      <h2>| makeresults | eval memory_usage=round(random() % 100, 2) | collect index=summary source=web_memory </h2>
+      <h2>| makeresults | eval response_time=round(random() % 500, 2) | collect index=summary source=web_response </h2>
+      <h1>Database Server KPIs</h1>
+      <h2>| makeresults | eval query_time=round(random() % 200, 2) | collect index=summary source=db_query_time </h2>
+      <h2>| makeresults | eval connections=round(random() % 50, 2) | collect index=summary source=db_connections </h2>
+      <h2>| makeresults | eval disk_usage=round(random() % 100, 2) | collect index=summary source=db_disk </h2>
+      <h1>Application Server KPIs</h1>
+      <h2>| makeresults | eval error_rate=round(random() % 10, 2) | collect index=summary source=app_error </h2>
+      <h2>| makeresults | eval transaction_per_minute=round(random() % 100, 2) | collect index=summary source=app_transaction </h2>
+      <h2>| makeresults | eval app_response_time=round(random() % 100, 2) | collect index=summary source=app_response </h2>
+    </html>
+  </panel>
+</row>
+</dashboard>

@@ -20,12 +20,80 @@ modtime = 1728844666.531844000
 access = read : [ * ], write : [ admin, power ]
 export = system
 owner = nobody
-version = 9.3.0
-modtime = 1729014349.075372000
+version = 9.3.1
+modtime = 1730340332.520145000
 
 [savedsearches/lame-content-errors]
 access = read : [ * ], write : [ admin ]
 export = system
 owner = admin
-version = 9.3.0
-modtime = 1729397781.346658000
+version = 9.3.1
+modtime = 1730340025.585697000
+
+[views/splunk_spl_queries]
+owner = admin
+version = 9.3.1
+modtime = 1730339824.885511000
+
+[savedsearches/web%20cpu%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571726.193564000
+
+[savedsearches/web%20memory%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571732.395098000
+
+[savedsearches/web%20response%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571738.717581000
+
+[savedsearches/db%20query%20time%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571721.213883000
+
+[savedsearches/db%20connections%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571709.850949000
+
+[savedsearches/db%20disk%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571715.031046000
+
+[savedsearches/app%20error%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571643.286147000
+
+[savedsearches/app%20transaction%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571703.246016000
+
+[savedsearches/app%20response%20metric]
+access = read : [ * ], write : [ admin ]
+export = system
+owner = admin
+version = 9.3.1
+modtime = 1730571697.955276000
